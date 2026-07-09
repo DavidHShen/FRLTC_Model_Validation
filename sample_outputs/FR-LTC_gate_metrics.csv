@@ -1,0 +1,3 @@
+case,selected_rank,estimated_rank_85pct_energy,residual_energy_ratio,singular_gap_gamma_r,condition_r,mode1_relative_rmse,subspace_noise_distance,subspace_window_distance,stress_sensitivity,rank_instability_flag,direction_turn_count,curvature_turn_count,gate_decision
+base_window,2,1,0.36534089233438793,0.11106835143529223,7.411897122071372,0.0595229108149011,0.045980741365896395,0.037034424357876766,0.021238363938888585,0,2,3,accept
+stress_boundary_test,2,16,0.472949037925309,0.03196368441583192,4.26551619327985,0.35952291081490106,0.045980741365896395,0.037034424357876766,0.6668487774466587,1,2,3,fallback

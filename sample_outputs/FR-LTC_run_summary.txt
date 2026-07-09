@@ -1,0 +1,20 @@
+{
+  "seed": 8,
+  "selected_rank": 2,
+  "n_assets": 40,
+  "n_time": 96,
+  "tau_min": 0.05,
+  "tau_max": 1.0,
+  "output_dir": "C:\\DAVID\\David\\NYU\\MASTER\\PhD\\Paper\\paper8\\P8safe\\code\\FRLTC_Model_Validation_Repo\\sample_outputs",
+  "gate_base": "accept",
+  "gate_stress": "fallback",
+  "best_oe_fit": {
+    "m": 0.0,
+    "beta": -0.19999999999999996,
+    "omega": 9.4,
+    "relative_rmse": 0.0595229108149011
+  },
+  "parameter_stability_report": "FR-LTC_parameter_stability.csv",
+  "implementation_scope": "safe residual-diagnostic demonstration; compact parameter-stability report included; full stress-family calibration and optional augmented-regression validation are intentionally outside the default script",
+  "audit_all_thresholded_checks_passed": true
+}

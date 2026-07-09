@@ -1,0 +1,11 @@
+check,value,tolerance,passed,scale,note
+teacher_identity_R_equals_BF_plus_E,1.4356593798778873e-17,1e-10,True,relative Frobenius,Checks exact residual bookkeeping.
+ols_normal_equation_EF_transpose,2.747899021514735e-15,1e-10,True,normalized Frobenius,Checks residual orthogonality to teacher factors.
+teacher_gram_condition_number,214.5626934515376,,True,2-norm condition number,"Conditioning of F_W F_W^T; reported, not thresholded."
+full_svd_reconstruction,2.9541505576688233e-15,1e-10,True,relative Frobenius,Checks U diag(sigma) V^T reconstruction.
+left_singular_vector_orthogonality,9.296409303470785e-15,1e-10,True,Frobenius,Checks U^T U = I.
+right_singular_vector_orthogonality,9.542644972426544e-15,1e-10,True,Frobenius,Checks V^T V = I.
+low_rank_relative_tail_error,0.09174812343586781,,True,relative Frobenius,Reported truncation error for selected rank r.
+oe_first_derivative_fd_check,2.6008959251578877e-06,0.05,True,relative L2,Analytic first derivative vs centered finite difference.
+oe_second_derivative_fd_check,8.68364882502509e-07,0.05,True,relative L2,Analytic second derivative vs centered finite difference.
+oe_third_derivative_fd_check,0.0022072247422618174,0.05,True,relative L2,Analytic third derivative vs centered finite difference; naturally more sensitive.

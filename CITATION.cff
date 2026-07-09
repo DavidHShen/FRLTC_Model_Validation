@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript and this software repository."
+title: "FR-LTC Model Validation"
+authors:
+  - family-names: "Shen"
+    given-names: "David Hongkai"
+version: "0.1.0"
+date-released: "2026-07-04"
+license: "MIT"
+repository-code: "https://github.com/DavidHShen/FRLTC_Model_Validation"
+keywords:
+  - model validation
+  - residual diagnostics
+  - low-rank residuals
+  - oscillatory-envelope modes
+  - stress testing
